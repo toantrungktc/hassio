@@ -96,8 +96,7 @@ class GoogleSheetUpload:
 		return False
 	
 	def __connectGoogle(self):
-		scope = ['https://spreadsheets.google.com/feeds',
-         		 'https://www.googleapis.com/auth/drive']
+		scope = ['https://spreadsheets.google.com/feeds' + ' ' +'https://www.googleapis.com/auth/drive']
 
 		credentials = ServiceAccountCredentials.from_json_keyfile_name('/share/googleDriveCredentials.json', scope)
 		self.__gc = gspread.authorize(credentials)
