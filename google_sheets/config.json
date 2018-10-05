@@ -1,6 +1,6 @@
 {
   "name": "google_sheet",
-  "version": "4",
+  "version": "4.1",
   "slug": "google_sheet",
   "description": "googleSheet",
   "startup": "system",
