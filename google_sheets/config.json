@@ -4,7 +4,7 @@
   "slug": "google_sheet",
   "description": "googleSheet",
   "startup": "system",
-  "url":"https://github.com/brendena/hassio-addons/tree/master/google_sheets",
+  "url":"https://github.com/Wonkavator/hassio-addons/tree/master/google_sheets",
   "boot": "auto",
   "options": {
 		"time": 1.0,
