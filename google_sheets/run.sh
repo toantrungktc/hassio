@@ -5,5 +5,5 @@ set -e
 #all=$(cat /data/options.json | jq -r '. // empty' )
 #echo $all
 
-echo "started google Sheets add on wonkavator"
+echo "started google Sheets add on wonkavator (vukisz)"
 python index.py 
