@@ -3,6 +3,7 @@
   "version": "4.121",
   "slug": "google_sheet",
   "description": "googleSheet",
+  "arch": ["amd64","armhf","aarch64"],
   "startup": "system",
   "url":"https://github.com/vukisz/hassio-addons/tree/master/google_sheets",
   "boot": "auto",
